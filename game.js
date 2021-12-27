@@ -1,7 +1,7 @@
 console.log('Game has begun')
 
 function userPlay() {
-    return window.prompt()
+    return window.prompt('type one: rock, scissors or paper')
 }
 
 function computerPlay() {
