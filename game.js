@@ -11,8 +11,8 @@ function computerPlay() {
 }
 
 function playRound(playerSelection, computerSelection) {
-    playerSelection = playerSelection.toLowerCase()
-    playerSelection = playerSelection[0].toUpperCase() + [...playerSelection].slice(1,).join('')
+    playerSelection = playerSelection && playerSelection.toLowerCase()
+    playerSelection = playerSelection && playerSelection[0].toUpperCase() + [...playerSelection].slice(1,).join('')
     computerSelection = computerSelection.toLowerCase()
     computerSelection = computerSelection[0].toUpperCase() + [...computerSelection].slice(1,).join('')
     if (computerSelection == playerSelection) {
