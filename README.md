@@ -1,9 +1,11 @@
 # Rock-Paper-Scissors CLI Game
-(./animation.gif)
+
+![](./animation.gif)
+
 
 ## Built With
 
-- JS
+- JavaScript
 
 
 ## Live Demo
