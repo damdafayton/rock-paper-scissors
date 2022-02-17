@@ -1,8 +1,5 @@
-![](ss.jpg)
-
-
 # Rock-Paper-Scissors CLI Game
-
+(./animation.gif)
 
 ## Built With
 
